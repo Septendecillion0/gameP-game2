@@ -124,6 +124,8 @@ bool PlayMode::handle_event(SDL_Event const &evt, glm::uvec2 const &window_size)
 				-evt.motion.yrel / float(window_size.y)
 			);
 
+			//first person camera controls assisted by ChatGPT
+
 			// yaw/pitch for first person POV
 			static float yaw = 0.0f;   // left/right
 			static float pitch = 0.0f; // up/down

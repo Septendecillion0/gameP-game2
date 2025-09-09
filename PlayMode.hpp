@@ -39,9 +39,4 @@ struct PlayMode : Mode {
 	//camera:
 	Scene::Camera *camera = nullptr;
 
-	// yaw/pitch for first person POV
-	float camera_yaw = 0.0f;
-	float camera_pitch = 0.0f;
-	bool camera_view_initialized = false;
-
 };
